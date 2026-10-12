@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Learning-App/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-Learning-App?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Learning-App/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-Learning-App?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Mobile-Learning-App/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Mobile-Learning-App?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Mobile-Learning-App/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -190,7 +190,7 @@ Your support ensures continuous updates, new open-source discoveries, and transp
 We welcome community suggestions, updates, and additions!
 1. 🍴 Fork this repository.
 2. 🌿 Create a descriptive feature branch (`git checkout -b feature/add-new-learning-tool`).
-3. ✏️ Edit `README.md` following the existing format (include product/repo name, URL, transparent pricing or open-source license, star badge, and 1–2 sentence description).
+3. ✏️ Edit `README.md` following the existing format (include product/repo name, URL, transparent pricing or open-source license, Stars_Badge, and 1–2 sentence description).
 4. 📤 Submit a Pull Request with a clear summary of your additions.
 
 ---
@@ -206,3 +206,12 @@ We welcome community suggestions, updates, and additions!
 <p align="center">
   <b>Built with ❤️ for educators, mobile engineers, instructional designers, and lifelong learners worldwide.</b>
 </p>
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Mobile-Learning-App&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Mobile-Learning-App_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Mobile-Learning-App_growth.svg">
+  </picture>
+</a>
