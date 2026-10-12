@@ -14,7 +14,12 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
+## Sector Overview & Market Dynamics
+
+The global mobile learning (m-learning) market is estimated at approximately **$45B–$110B in 2025** and projected to reach **$71B–$145B in 2026**, expanding at a CAGR of ~20–25% driven by mobile-first workforce training, AI-driven micro-learning, and BYOD enterprise adoption. The market dynamics reflect a **moderately to highly fragmented** competitive landscape characterized by specialized frontline training apps, established enterprise LMS/talent suites, and consumer edtech platforms, alongside significant device and operating system platform fragmentation rather than a single winner-take-all outcome.
+
 ## Table of Contents
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
@@ -22,35 +27,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Salesforce Trailhead GO](https://trailhead.salesforce.com/)**  
-  Mobile learning app from Salesforce with gamified modules, badges, and hands-on Salesforce skill development.
-
-- **[EdApp by SafetyCulture](https://www.edapp.com/)**  
-  Mobile-first micro-learning platform with spaced repetition, gamification, and offline access for frontline teams.
-
-- **[Duolingo](https://www.duolingo.com/)**  
-  Gamified mobile language learning app with streaks, spaced repetition, and adaptive difficulty.
-
-- **[TalentLMS Mobile](https://www.talentlms.com/)**  
-  Mobile learning app for the TalentLMS platform with offline courses, assessments, and push notifications.
-
-- **[Cornerstone Learn](https://www.cornerstoneondemand.com/)**  
-  Mobile learning app within Cornerstone's talent suite with personalized content recommendations and offline access.
-
-- **[Skillsoft Percipio Mobile](https://www.skillsoft.com/)**  
-  Mobile learning app with courses, audiobooks, and practice labs with offline downloading.
-
-- **[Degreed Mobile](https://degreed.com/)**  
-  Mobile learning app with personalized pathways, skill tracking, and content curation across sources.
-
-- **[Absorb Learning Mobile](https://www.absorblms.com/)**  
-  Mobile LMS app with offline course access, assessments, and learner progress tracking.
-
-- **[SAP Litmos Mobile](https://www.litmos.com/)**  
-  Mobile learning app with courses, assessments, and compliance training for enterprise learners.
-
-- **[Moodle Mobile](https://moodle.com/)**  
-  Official mobile app for Moodle LMS with offline access, push notifications, and course participation.
+| Platform | Company Valuation / Revenue | Starting Tier Pricing | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Salesforce Trailhead GO](https://trailhead.salesforce.com/)** | ~$280B Market Cap (~$38B Annual Revenue) | Free (Standard modules); Paid via Sales/Service Cloud ($25/user/month) or Trailhead Academy courses ($900+) | Free forever plan with full access to standard Trailhead modules, badges, and Trailblazer Community | Mobile learning app from Salesforce with gamified modules, badges, and hands-on Salesforce skill development. |
+| **[Duolingo](https://www.duolingo.com/)** | ~$11B–$13B Market Cap (~$750M Annual Revenue) | $12.99/user/month (or $83.99/year for Super Duolingo) | Free forever plan with ad-supported access and standard 5-heart daily limit; 14-day free trial for Super Duolingo | Gamified mobile language learning app with streaks, spaced repetition, and adaptive difficulty. |
+| **[Cornerstone Learn](https://www.cornerstoneondemand.com/)** | ~$5.2B Valuation (Acquired by Clearlake Capital; ~$900M Revenue) | ~$6.00/user/month (Enterprise annual commitments starting at ~$10,000–$25,000/year) | 14-day free trial upon enterprise sales qualification (no free forever plan) | Mobile learning app within Cornerstone's talent suite with personalized content recommendations and offline access. |
+| **[EdApp by SafetyCulture](https://www.edapp.com/)** | ~$1.8B Valuation (SafetyCulture parent; ~$100M+ Revenue) | $2.95/active user/month (Pro plan, billed annually) | Free forever plan for up to 10 users with unlimited course creation, built-in AI authoring, and mobile delivery | Mobile-first micro-learning platform with spaced repetition, gamification, and offline access for frontline teams. |
+| **[SAP Litmos Mobile](https://www.litmos.com/)** | ~$1.5B–$2.0B Valuation (Francisco Partners portfolio; ~$150M+ Revenue) | $3.00–$6.00/user/month (Foundation tier, billed annually; min. 150 learners) | 14-day free trial with access to sample courses, course builder, and mobile learner view; no credit card required | Mobile learning app with courses, assessments, and compliance training for enterprise learners. |
+| **[Degreed Mobile](https://degreed.com/)** | ~$1.4B Valuation (~$130M+ Annual Revenue) | ~$10.00–$12.00/user/month (Enterprise annual packages starting ~$15,000–$30,000/year) | 14-day guided proof-of-concept / sandbox trial for qualifying enterprise teams (no free forever plan) | Mobile learning app with personalized pathways, skill tracking, and content curation across sources. |
+| **[Absorb Learning Mobile](https://www.absorblms.com/)** | ~$800M Valuation (Welsh Carson acquisition; ~$80M–$100M Revenue) | ~$2.50–$5.00/user/month (Annual plans starting at ~$14,500/year for up to 500 active users) | 14-day free trial for administrators with full LMS and mobile preview features | Mobile LMS app with offline course access, assessments, and learner progress tracking. |
+| **[Skillsoft Percipio Mobile](https://www.skillsoft.com/)** | ~$400M–$500M Enterprise Value (~$550M Annual Revenue) | $20.00/user/month (Individual / Small Team online subscription) | 14-day free trial (and up to 45-day personal trial) with access to selected Percipio learning paths | Mobile learning app with courses, audiobooks, and practice labs with offline downloading. |
+| **[TalentLMS Mobile](https://www.talentlms.com/)** | Epignosis (~$50M+ Annual Revenue, bootstrapped/profitable) | $69.00/month (Starter tier, billed annually, for up to 40 users; ~$1.73/user/month) | Free forever plan for up to 5 users and up to 10 courses with mobile app access | Mobile learning app for the TalentLMS platform with offline courses, assessments, and push notifications. |
+| **[Moodle Mobile](https://moodle.com/)** | Moodle Pty Ltd (~$20M–$30M Annual Revenue) | €499/year (~$540/year Premium site license for unlimited push notifications and offline courses) | Free forever plan with basic app usage, up to 50 active mobile devices for push notifications, and 2 offline courses per device | Official mobile app for Moodle LMS with offline access, push notifications, and course participation. |
 
 ## Open-Source GitHub Projects
 
