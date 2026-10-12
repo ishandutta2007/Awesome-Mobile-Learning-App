@@ -1,156 +1,208 @@
-# Awesome-Mobile-Learning-App
+# Awesome-Mobile-Learning-App 📱🚀
 
-## Top Mobile Learning App Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Mobile Learning App Banner" width="100%" />
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Micro-Learning, Offline-First Delivery & Mobile-First Learner Engagement*  
-**Last updated: March 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Mobile Learning Apps**. These tools deliver courses, micro-lessons, assessments, and certifications on smartphones and tablets — supporting offline access, push-based nudges, gamification, spaced repetition, and progress sync across devices.
-
-**Examples** include Salesforce Trailhead GO, EdApp by SafetyCulture, Duolingo, TalentLMS Mobile, Cornerstone Learn, Skillsoft Percipio Mobile, Degreed Mobile, Absorb Learning Mobile, SAP Litmos Mobile, and Moodle Mobile (the category leaders).
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom learning paths, and transparent learner data — ideal for schools, enterprises, NGOs, and developers building data-sovereign mobile learning platforms.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Sector Overview & Market Dynamics
-
-The global mobile learning (m-learning) market is estimated at approximately **$45B–$110B in 2025** and projected to reach **$71B–$145B in 2026**, expanding at a CAGR of ~20–25% driven by mobile-first workforce training, AI-driven micro-learning, and BYOD enterprise adoption. The market dynamics reflect a **moderately to highly fragmented** competitive landscape characterized by specialized frontline training apps, established enterprise LMS/talent suites, and consumer edtech platforms, alongside significant device and operating system platform fragmentation rather than a single winner-take-all outcome.
-
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-| Platform | Company Valuation / Revenue | Starting Tier Pricing | Free Tier / Trial Limits | Description |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Salesforce Trailhead GO](https://trailhead.salesforce.com/)** | ~$280B Market Cap (~$38B Annual Revenue) | Free (Standard modules); Paid via Sales/Service Cloud ($25/user/month) or Trailhead Academy courses ($900+) | Free forever plan with full access to standard Trailhead modules, badges, and Trailblazer Community | Mobile learning app from Salesforce with gamified modules, badges, and hands-on Salesforce skill development. |
-| **[Duolingo](https://www.duolingo.com/)** | ~$11B–$13B Market Cap (~$750M Annual Revenue) | $12.99/user/month (or $83.99/year for Super Duolingo) | Free forever plan with ad-supported access and standard 5-heart daily limit; 14-day free trial for Super Duolingo | Gamified mobile language learning app with streaks, spaced repetition, and adaptive difficulty. |
-| **[Cornerstone Learn](https://www.cornerstoneondemand.com/)** | ~$5.2B Valuation (Acquired by Clearlake Capital; ~$900M Revenue) | ~$6.00/user/month (Enterprise annual commitments starting at ~$10,000–$25,000/year) | 14-day free trial upon enterprise sales qualification (no free forever plan) | Mobile learning app within Cornerstone's talent suite with personalized content recommendations and offline access. |
-| **[EdApp by SafetyCulture](https://www.edapp.com/)** | ~$1.8B Valuation (SafetyCulture parent; ~$100M+ Revenue) | $2.95/active user/month (Pro plan, billed annually) | Free forever plan for up to 10 users with unlimited course creation, built-in AI authoring, and mobile delivery | Mobile-first micro-learning platform with spaced repetition, gamification, and offline access for frontline teams. |
-| **[SAP Litmos Mobile](https://www.litmos.com/)** | ~$1.5B–$2.0B Valuation (Francisco Partners portfolio; ~$150M+ Revenue) | $3.00–$6.00/user/month (Foundation tier, billed annually; min. 150 learners) | 14-day free trial with access to sample courses, course builder, and mobile learner view; no credit card required | Mobile learning app with courses, assessments, and compliance training for enterprise learners. |
-| **[Degreed Mobile](https://degreed.com/)** | ~$1.4B Valuation (~$130M+ Annual Revenue) | ~$10.00–$12.00/user/month (Enterprise annual packages starting ~$15,000–$30,000/year) | 14-day guided proof-of-concept / sandbox trial for qualifying enterprise teams (no free forever plan) | Mobile learning app with personalized pathways, skill tracking, and content curation across sources. |
-| **[Absorb Learning Mobile](https://www.absorblms.com/)** | ~$800M Valuation (Welsh Carson acquisition; ~$80M–$100M Revenue) | ~$2.50–$5.00/user/month (Annual plans starting at ~$14,500/year for up to 500 active users) | 14-day free trial for administrators with full LMS and mobile preview features | Mobile LMS app with offline course access, assessments, and learner progress tracking. |
-| **[Skillsoft Percipio Mobile](https://www.skillsoft.com/)** | ~$400M–$500M Enterprise Value (~$550M Annual Revenue) | $20.00/user/month (Individual / Small Team online subscription) | 14-day free trial (and up to 45-day personal trial) with access to selected Percipio learning paths | Mobile learning app with courses, audiobooks, and practice labs with offline downloading. |
-| **[TalentLMS Mobile](https://www.talentlms.com/)** | Epignosis (~$50M+ Annual Revenue, bootstrapped/profitable) | $69.00/month (Starter tier, billed annually, for up to 40 users; ~$1.73/user/month) | Free forever plan for up to 5 users and up to 10 courses with mobile app access | Mobile learning app for the TalentLMS platform with offline courses, assessments, and push notifications. |
-| **[Moodle Mobile](https://moodle.com/)** | Moodle Pty Ltd (~$20M–$30M Annual Revenue) | €499/year (~$540/year Premium site license for unlimited push notifications and offline courses) | Free forever plan with basic app usage, up to 50 active mobile devices for push notifications, and 2 offline courses per device | Official mobile app for Moodle LMS with offline access, push notifications, and course participation. |
-
-## Open-Source GitHub Projects
-
-- **[Moodle](https://github.com/moodle/moodle)**  
-  Leading open-source learning management system with a full-featured mobile app supporting offline access, push notifications, and course participation. GPL-3.0 licensed. Used by 300,000+ organizations worldwide.
-
-- **[Moodle Mobile](https://github.com/moodlehq/moodleapp)**  
-  Official open-source mobile app for Moodle built with Ionic and Angular, supporting offline courses, notifications, and file uploads. GPL-3.0 licensed.
-
-- **[Open edX](https://github.com/openedx/edx-platform)**  
-  Open-source learning platform from MIT and Harvard with mobile apps for iOS and Android via the Open edX Mobile app. AGPL-3.0 licensed.
-
-- **[Open edX Mobile](https://github.com/openedx/edx-app-android)**  
-  Open-source Android app for Open edX with video playback, offline downloads, and course navigation. Apache 2.0 licensed.
-
-- **[Canvas LMS](https://github.com/instructure/canvas-lms)**  
-  Open-source LMS with official mobile apps for students and teachers supporting offline access and push notifications. AGPL-3.0 licensed.
-
-- **[Canvas Student App](https://github.com/instructure/canvas-ios)**  
-  Open-source iOS app for Canvas LMS with offline submissions, notifications, and mobile-friendly course views. Apache 2.0 licensed.
-
-- **[Chamilo](https://github.com/chamilo/chamilo-lms)**  
-  Open-source LMS with mobile-responsive design and companion app for offline learning. GPL-3.0 licensed.
-
-- **[Kolibri](https://github.com/learningequality/kolibri)**  
-  Open-source offline-first learning platform from Learning Equality designed for low-connectivity environments. MIT licensed.
-
-- **[Oppia](https://github.com/oppia/oppia)**  
-  Open-source interactive learning platform with mobile-friendly lessons and offline support. Apache 2.0 licensed.
-
-- **[Sugar Labs (Sugarizer)](https://github.com/llaske/sugarizer)**  
-  Open-source mobile learning environment for children with offline activities and collaborative learning. Apache 2.0 licensed.
-
-- **[XBlock](https://github.com/openedx/XBlock)**  
-  Open edX component architecture enabling custom mobile-friendly learning experiences. AGPL-3.0 licensed.
-
-- **[H5P](https://github.com/h5p/h5p-php-library)**  
-  Open-source interactive content framework for creating mobile-friendly quizzes, videos, and presentations. MIT licensed.
-
-- **[Adapt Learning](https://github.com/adaptlearning/adapt_framework)**  
-  Open-source responsive e-learning authoring framework with mobile-first design. GPL-3.0 licensed.
-
-- **[Learning Locker](https://github.com/LearningLocker/learninglocker)**  
-  Open-source Learning Record Store (LRS) for xAPI data from mobile learning activities. GPL-3.0 licensed.
-
-- **[GrassBlade](https://github.com/grassblade)**  
-  Open-source xAPI and SCORM integration for mobile learning analytics. GPL-3.0 licensed.
-
-- **[Tutor](https://github.com/overhangio/tutor)**  
-  Open-source Docker-based Open edX distribution with mobile app support. AGPL-3.0 licensed.
-
-- **[Rabb.it](https://github.com/openedx/edx-platform)**  
-  Open edX mobile-friendly theming and customization for branded learning apps. AGPL-3.0 licensed.
-
-- **[AnkiDroid](https://github.com/ankidroid/Anki-Android)**  
-  Open-source Android flashcard app with spaced repetition, offline sync, and mobile-optimized review. GPL-3.0 licensed.
-
-- **[Anki](https://github.com/ankitects/anki)**  
-  Open-source spaced repetition flashcard software with mobile clients and sync server. AGPL-3.0 licensed.
-
-- **[Mnemosyne](https://github.com/mnemosyne-proj/mnemosyne)**  
-  Open-source spaced repetition learning software with mobile clients. AGPL-3.0 licensed.
-
-- **[React Native](https://github.com/facebook/react-native)**  
-  Cross-platform framework for building custom mobile learning apps with native performance. MIT licensed.
-
-- **[Flutter](https://github.com/flutter/flutter)**  
-  Google's open-source UI toolkit for building cross-platform mobile learning apps. BSD-3-Clause licensed.
-
-- **[Expo](https://github.com/expo/expo)**  
-  Open-source platform for building React Native learning apps with OTA updates. MIT licensed.
-
-- **[Ionic](https://github.com/ionic-team/ionic-framework)**  
-  Open-source UI toolkit for building cross-platform mobile learning apps with web technologies. MIT licensed.
-
-- **[Capacitor](https://github.com/ionic-team/capacitor)**  
-  Open-source native runtime for deploying web-based learning apps to mobile. MIT licensed.
-
-### Additional Strong Open-Source Options
-
-- **[Mahara](https://github.com/mahara/mahara)** — Open-source e-portfolio with mobile-responsive design for learner reflections.
-- **[OpenBadges](https://github.com/mozilla/openbadges)** — Open-source digital badge infrastructure for mobile learning recognition.
-- **[Badgr](https://github.com/concentricsky/badgr-server)** — Open-source badging platform with mobile-friendly credential display.
-- **[xAPIWrapper](https://github.com/adlnet/xAPIWrapper)** — Open-source JavaScript wrapper for xAPI mobile learning analytics.
-- **[SCORM Cloud](https://github.com/RusticiSoftware)** — Open-source SCORM integration libraries for mobile LMS.
-- **[Wiris](https://github.com/wiris)** — Open-source math and science equation editor for mobile learning content.
-- **[MathJax](https://github.com/mathjax/MathJax)** — Open-source math rendering for mobile learning platforms.
-- **[Video.js](https://github.com/videojs/video.js)** — Open-source HTML5 video player for mobile course content.
-- **[Shaka Player](https://github.com/shaka-project/shaka-player)** — Open-source adaptive streaming player for mobile learning videos.
-- **[ExoPlayer](https://github.com/google/ExoPlayer)** — Open-source Android media player for offline course playback.
-- **Content Authoring** — H5P, Adapt, and GIFT format tools for mobile-friendly lessons.
-- **Analytics** — Learning Locker, xAPI, and Caliper for mobile learning data.
-- **Push Notifications** — Firebase Cloud Messaging (FCM) and OneSignal SDKs for learner nudges.
-
-**Frameworks for building custom systems**: Combine **Moodle** or **Open edX** for LMS, **Moodle Mobile** or **Flutter** for the mobile app, **H5P** for interactive content, **Learning Locker** for xAPI analytics, and **Anki** for spaced repetition to build a complete self-hosted mobile learning stack.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Mobile learning apps must comply with data protection regulations (GDPR, CCPA, FERPA, COPPA), accessibility standards (WCAG), and app store policies.
-- Self-hosted open-source solutions require proper security hardening, offline sync design, and mobile device management.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Learning-App/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-Learning-App?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Learning-App/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Mobile-Learning-App?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Learning-App/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-**Made for educators, L&D professionals, instructional designers, and developers building mobile-first learning platforms.**  
-Let's make mobile learning more open, accessible, and learner-friendly.
+## 🌟 Top Mobile Learning App Ecosystem
+
+> **A Curated Directory of SaaS Solutions, Frameworks & Open-Source Mobile EdTech Projects**  
+> *Engineered for Micro-Learning, Offline-First Delivery, Gamified Habit Loops, and Modern Learner Engagement*  
+> 🕒 **Last updated: March 2026**
+
+Welcome to **Awesome Mobile Learning App** — the premier developer and enterprise guide tracking top-tier **cloud SaaS platforms** and **open-source repositories** designed for **m-learning (mobile learning)**. Whether you are an instructional designer creating 3-minute bite-sized micro-courses, an enterprise L&D director managing remote frontline staff, or a software engineer engineering an offline-first educational application with spaced repetition, this curated guide offers benchmarks, technical breakdowns, pricing details, and repository statistics.
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global mobile learning (m-learning) industry is experiencing exponential expansion, valued at **$45B–$110B in 2025** and projected to climb to **$71B–$145B in 2026** at an annual growth rate (CAGR) exceeding 20–25%. This rapid momentum is powered by pervasive 5G mobile penetration, enterprise BYOD (Bring Your Own Device) policies, AI-curated adaptive study paths, and the universal shift toward deskless workforce training.
+
+From a market structure perspective, the sector remains **moderately to highly fragmented** rather than exhibiting single winner-take-all dynamics:
+- **Specialized Microlearning & Frontline Apps:** High adoption across hospitality, manufacturing, healthcare, and retail sectors requiring instant smartphone-based onboarding.
+- **Enterprise LMS & Talent Ecosystems:** Legacy corporate learning suites that have integrated mobile companions with offline sync and compliance engines.
+- **Consumer Language & Cognitive EdTech:** Massive subscriber bases powered by game mechanics, streak tracking, and push nudges.
+- **Technical & Platform Fragmentation:** Cross-platform development challenges (iOS vs. Android native runtimes, fluctuating network bandwidth, local SQLite caching, xAPI statement telemetry) have fostered a vibrant landscape of open-source engines and specialized frameworks.
+
+---
+
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+- [🧩 Specialized Frameworks & Utility Components](#-specialized-frameworks--utility-components)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📜 Disclaimer](#-disclaimer)
+
+---
+
+## 💼 SaaS & Hosted Platforms
+
+| 🏢 Platform | 💰 Company Valuation / Revenue | 🏷️ Starting Tier Pricing | 🎁 Free Tier / Trial Limits | 📝 Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Salesforce Trailhead GO](https://trailhead.salesforce.com/)** | ~$280B Market Cap (~$38B Annual Revenue) | Free (Standard modules); Paid via Sales/Service Cloud ($25/user/month) or Trailhead Academy courses ($900+) | Free forever plan with full access to standard Trailhead modules, badges, and Trailblazer Community | Mobile learning app from Salesforce featuring gamified modules, skill badges, and hands-on CRM developer tracks. |
+| **[Duolingo](https://www.duolingo.com/)** | ~$11B–$13B Market Cap (~$750M Annual Revenue) | $12.99/user/month (or $83.99/year for Super Duolingo) | Free forever plan with ad-supported access and standard 5-heart daily limit; 14-day free trial for Super Duolingo | Gamified mobile language learning app featuring streaks, spaced repetition algorithms, and adaptive challenges. |
+| **[Cornerstone Learn](https://www.cornerstoneondemand.com/)** | ~$5.2B Valuation (Acquired by Clearlake Capital; ~$900M Revenue) | ~$6.00/user/month (Enterprise annual commitments starting at ~$10,000–$25,000/year) | 14-day free trial upon enterprise sales qualification (no free forever plan) | Mobile learning application within Cornerstone's talent suite offering AI content curation and offline downloads. |
+| **[EdApp by SafetyCulture](https://www.edapp.com/)** | ~$1.8B Valuation (SafetyCulture parent; ~$100M+ Revenue) | $2.95/active user/month (Pro plan, billed annually) | Free forever plan for up to 10 users with unlimited course creation, built-in AI authoring, and mobile delivery | Mobile-first micro-learning platform with spaced repetition, gamification, and offline access for frontline teams. |
+| **[SAP Litmos Mobile](https://www.litmos.com/)** | ~$1.5B–$2.0B Valuation (Francisco Partners portfolio; ~$150M+ Revenue) | $3.00–$6.00/user/month (Foundation tier, billed annually; min. 150 learners) | 14-day free trial with access to sample courses, course builder, and mobile learner view; no credit card required | Mobile learning app with courses, assessments, and compliance training for enterprise learners. |
+| **[Degreed Mobile](https://degreed.com/)** | ~$1.4B Valuation (~$130M+ Annual Revenue) | ~$10.00–$12.00/user/month (Enterprise annual packages starting ~$15,000–$30,000/year) | 14-day guided proof-of-concept / sandbox trial for qualifying enterprise teams (no free forever plan) | Mobile learning platform with personalized pathways, skill tracking, and content curation across web sources. |
+| **[Absorb Learning Mobile](https://www.absorblms.com/)** | ~$800M Valuation (Welsh Carson acquisition; ~$80M–$100M Revenue) | ~$2.50–$5.00/user/month (Annual plans starting at ~$14,500/year for up to 500 active users) | 14-day free trial for administrators with full LMS and mobile preview features | Mobile LMS app featuring offline course access, video assessments, and learner progress synchronization. |
+| **[Skillsoft Percipio Mobile](https://www.skillsoft.com/)** | ~$400M–$500M Enterprise Value (~$550M Annual Revenue) | $20.00/user/month (Individual / Small Team online subscription) | 14-day free trial (and up to 45-day personal trial) with access to selected Percipio learning paths | Mobile learning app with courses, audiobooks, hands-on practice labs, and offline media caching. |
+| **[TalentLMS Mobile](https://www.talentlms.com/)** | Epignosis (~$50M+ Annual Revenue, bootstrapped/profitable) | $69.00/month (Starter tier, billed annually, for up to 40 users; ~$1.73/user/month) | Free forever plan for up to 5 users and up to 10 courses with mobile app access | Mobile learning app for the TalentLMS platform featuring offline courses, assessments, and native push alerts. |
+| **[Moodle Mobile](https://moodle.com/)** | Moodle Pty Ltd (~$20M–$30M Annual Revenue) | €499/year (~$540/year Premium site license for unlimited push notifications and offline courses) | Free forever plan with basic app usage, up to 50 active mobile devices for push notifications, and 2 offline courses per device | Official mobile app for Moodle LMS with offline access, push notifications, and course participation. |
+
+---
+
+## 🛠️ Open-Source GitHub Projects
+
+The following repositories provide self-hosted learning engines, full mobile clients, spaced repetition tools, and mobile app runtimes. Sorted in descending order by **GitHub Stargazers**:
+
+- **[Flutter](https://github.com/flutter/flutter)** [![Stars](https://img.shields.io/github/stars/flutter/flutter?style=social&color=white)](https://github.com/flutter/flutter/stargazers)  
+  Google's premier multi-platform UI toolkit powering high-performance cross-platform mobile learning apps for iOS, Android, and web from a single codebase. BSD-3-Clause licensed.
+
+- **[React Native](https://github.com/facebook/react-native)** [![Stars](https://img.shields.io/github/stars/facebook/react-native?style=social&color=white)](https://github.com/facebook/react-native/stargazers)  
+  Meta's battle-tested framework for compiling native mobile apps using JavaScript/TypeScript and React, widely used for mobile education and micro-learning apps. MIT licensed.
+
+- **[Ionic Framework](https://github.com/ionic-team/ionic-framework)** [![Stars](https://img.shields.io/github/stars/ionic-team/ionic-framework?style=social&color=white)](https://github.com/ionic-team/ionic-framework/stargazers)  
+  Open-source mobile UI toolkit for building responsive cross-platform apps with modern web components (the foundation of Moodle Mobile). MIT licensed.
+
+- **[Expo](https://github.com/expo/expo)** [![Stars](https://img.shields.io/github/stars/expo/expo?style=social&color=white)](https://github.com/expo/expo/stargazers)  
+  Open-source ecosystem and runtime for React Native supporting push notifications, background updates, offline caching, and frictionless mobile deployment. MIT licensed.
+
+- **[Anki](https://github.com/ankitects/anki)** [![Stars](https://img.shields.io/github/stars/ankitects/anki?style=social&color=white)](https://github.com/ankitects/anki/stargazers)  
+  Gold standard open-source spaced repetition flashcard system with sync servers and robust algorithmic recall optimization for mobile learners. AGPL-3.0 licensed.
+
+- **[Capacitor](https://github.com/ionic-team/capacitor)** [![Stars](https://img.shields.io/github/stars/ionic-team/capacitor?style=social&color=white)](https://github.com/ionic-team/capacitor/stargazers)  
+  Cross-platform native bridge runtime allowing web-based LMS courses to invoke native device APIs (camera, push notifications, offline filesystem). MIT licensed.
+
+- **[AnkiDroid](https://github.com/ankidroid/Anki-Android)** [![Stars](https://img.shields.io/github/stars/ankidroid/Anki-Android?style=social&color=white)](https://github.com/ankidroid/Anki-Android/stargazers)  
+  Popular open-source Android flashcard learning application featuring full offline synchronization, whiteboard drawing, and custom card templates. GPL-3.0 licensed.
+
+- **[Open edX Platform](https://github.com/openedx/edx-platform)** [![Stars](https://img.shields.io/github/stars/openedx/edx-platform?style=social&color=white)](https://github.com/openedx/edx-platform/stargazers)  
+  Global open-source enterprise learning platform originally initiated by MIT and Harvard, featuring companion REST APIs for mobile applications. AGPL-3.0 licensed.
+
+- **[Moodle](https://github.com/moodle/moodle)** [![Stars](https://img.shields.io/github/stars/moodle/moodle?style=social&color=white)](https://github.com/moodle/moodle/stargazers)  
+  World's most deployed open-source learning management system with extensive mobile REST APIs, offline token authorization, and automated quiz evaluation. GPL-3.0 licensed.
+
+- **[Canvas LMS](https://github.com/instructure/canvas-lms)** [![Stars](https://img.shields.io/github/stars/instructure/canvas-lms?style=social&color=white)](https://github.com/instructure/canvas-lms/stargazers)  
+  Extensible open-source LMS from Instructure powering major universities and schools worldwide with native mobile backend APIs. AGPL-3.0 licensed.
+
+- **[Oppia](https://github.com/oppia/oppia)** [![Stars](https://img.shields.io/github/stars/oppia/oppia?style=social&color=white)](https://github.com/oppia/oppia/stargazers)  
+  Interactive, exploration-driven open-source learning platform creating personalized bite-sized lessons with mobile web and app delivery. Apache-2.0 licensed.
+
+- **[Frappe LMS](https://github.com/frappe/lms)** [![Stars](https://img.shields.io/github/stars/frappe/lms?style=social&color=white)](https://github.com/frappe/lms/stargazers)  
+  Modern, fast, and 100% open-source learning platform built on the Frappe framework with responsive mobile course reading, exercises, and certification. AGPL-3.0 licensed.
+
+- **[Kolibri](https://github.com/learningequality/kolibri)** [![Stars](https://img.shields.io/github/stars/learningequality/kolibri?style=social&color=white)](https://github.com/learningequality/kolibri/stargazers)  
+  Offline-first educational platform developed by Learning Equality specifically tailored for low-connectivity environments, rural schools, and mobile tablets. MIT licensed.
+
+- **[Tutor](https://github.com/overhangio/tutor)** [![Stars](https://img.shields.io/github/stars/overhangio/tutor?style=social&color=white)](https://github.com/overhangio/tutor/stargazers)  
+  Docker and Kubernetes deployment orchestration platform for Open edX, simplifying setup of mobile app endpoints and video CDNs. AGPL-3.0 licensed.
+
+- **[Chamilo LMS](https://github.com/chamilo/chamilo-lms)** [![Stars](https://img.shields.io/github/stars/chamilo/chamilo-lms?style=social&color=white)](https://github.com/chamilo/chamilo-lms/stargazers)  
+  Clean, lightweight open-source e-learning platform with mobile-friendly course views, test engines, and SCORM support. GPL-3.0 licensed.
+
+- **[Moodle Mobile App](https://github.com/moodlehq/moodleapp)** [![Stars](https://img.shields.io/github/stars/moodlehq/moodleapp?style=social&color=white)](https://github.com/moodlehq/moodleapp/stargazers)  
+  Official open-source cross-platform mobile client for Moodle built on Ionic and Angular, providing offline content sync, push notifications, and mobile gradebooks. GPL-3.0 licensed.
+
+- **[Canvas iOS App](https://github.com/instructure/canvas-ios)** [![Stars](https://img.shields.io/github/stars/instructure/canvas-ios?style=social&color=white)](https://github.com/instructure/canvas-ios/stargazers)  
+  Official open-source native iOS client for Canvas LMS with offline submissions, grading, calendar alerts, and mobile discussion boards. Apache-2.0 licensed.
+
+- **[Adapt Learning Framework](https://github.com/adaptlearning/adapt_framework)** [![Stars](https://img.shields.io/github/stars/adaptlearning/adapt_framework?style=social&color=white)](https://github.com/adaptlearning/adapt_framework/stargazers)  
+  Leading open-source e-learning authoring framework generating deeply responsive, mobile-first, multi-device HTML5 learning experiences. GPL-3.0 licensed.
+
+- **[Mnemosyne](https://github.com/mnemosyne-proj/mnemosyne)** [![Stars](https://img.shields.io/github/stars/mnemosyne-proj/mnemosyne?style=social&color=white)](https://github.com/mnemosyne-proj/mnemosyne/stargazers)  
+  Open-source memory research and spaced repetition tool with mobile sync clients and card scheduling metrics. AGPL-3.0 licensed.
+
+- **[Learning Locker](https://github.com/LearningLocker/learninglocker)** [![Stars](https://img.shields.io/github/stars/LearningLocker/learninglocker?style=social&color=white)](https://github.com/LearningLocker/learninglocker/stargazers)  
+  Open-source Learning Record Store (LRS) to aggregate, analyze, and query xAPI learning activity statements generated by mobile applications. GPL-3.0 licensed.
+
+- **[freeCodeCamp Mobile App](https://github.com/freeCodeCamp/mobile)** [![Stars](https://img.shields.io/github/stars/freeCodeCamp/mobile?style=social&color=white)](https://github.com/freeCodeCamp/mobile/stargazers)  
+  Official Flutter-based mobile learning app for freeCodeCamp, offering offline interactive programming lessons, podcasts, and video tutorials. BSD-3-Clause licensed.
+
+- **[XBlock](https://github.com/openedx/XBlock)** [![Stars](https://img.shields.io/github/stars/openedx/XBlock?style=social&color=white)](https://github.com/openedx/XBlock/stargazers)  
+  Component architecture from Open edX allowing developers to create embeddable, interactive learning widgets designed for smartphone interfaces. AGPL-3.0 licensed.
+
+- **[Oppia Android App](https://github.com/oppia/oppia-android)** [![Stars](https://img.shields.io/github/stars/oppia/oppia-android?style=social&color=white)](https://github.com/oppia/oppia-android/stargazers)  
+  Official open-source native Android client for Oppia with 100% offline lesson support, audio voiceovers, and gamified practice for low-resource communities. Apache-2.0 licensed.
+
+- **[Open edX Android App](https://github.com/openedx/edx-app-android)** [![Stars](https://img.shields.io/github/stars/openedx/edx-app-android?style=social&color=white)](https://github.com/openedx/edx-app-android/stargazers)  
+  Official open-source Android native app for Open edX with offline video caching, announcements, and progress sync. Apache-2.0 licensed.
+
+- **[Sugarizer](https://github.com/llaske/sugarizer)** [![Stars](https://img.shields.io/github/stars/llaske/sugarizer?style=social&color=white)](https://github.com/llaske/sugarizer/stargazers)  
+  Open-source mobile learning environment for children based on the Sugar OS, running offline on Android, iOS, and tablets. Apache-2.0 licensed.
+
+- **[H5P Core Library](https://github.com/h5p/h5p-php-library)** [![Stars](https://img.shields.io/github/stars/h5p/h5p-php-library?style=social&color=white)](https://github.com/h5p/h5p-php-library/stargazers)  
+  Interactive HTML5 content generation library enabling mobile-friendly drag-and-drop questions, interactive videos, and branching scenarios. MIT licensed.
+
+---
+
+## 🧩 Specialized Frameworks & Utility Components
+
+For developers crafting custom mobile learning pipelines, these specialized open-source tools integrate seamlessly with mobile architectures:
+
+- **Portfolio & Badging:**
+  - **[Mahara](https://github.com/mahara/mahara)** — Mobile-friendly open-source e-portfolio for student evidence collection and reflections.
+  - **[OpenBadges](https://github.com/mozilla/openbadges)** — Standards-compliant digital badge generation for mobile credential verification.
+  - **[Badgr Server](https://github.com/concentricsky/badgr-server)** — Open-source micro-credentialing engine with mobile-friendly badges.
+- **Analytics & Telemetry:**
+  - **[xAPIWrapper](https://github.com/adlnet/xAPIWrapper)** — JavaScript library for generating Tin Can / xAPI event statements from mobile webviews.
+  - **[GrassBlade](https://github.com/grassblade)** — Open-source integration modules for mobile SCORM and xAPI analytics pipelines.
+- **Offline Media & Math Rendering:**
+  - **[ExoPlayer](https://github.com/google/ExoPlayer)** — Android media playback engine with robust offline course video caching.
+  - **[MathJax](https://github.com/mathjax/MathJax)** — High-precision LaTeX and MathML rendering optimized for mobile browser displays.
+  - **[Video.js](https://github.com/videojs/video.js)** — Responsive HTML5 mobile video player supporting adaptive HLS/DASH streaming.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Mobile-Learning-App&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Mobile-Learning-App&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+If you found this curated list helpful for your mobile app, educational institution, research, or enterprise training setup:
+- ⭐ **Star this repository** on GitHub to support discoverability!
+- 🍴 **Fork the repo** to benchmark your team's mobile learning architecture.
+- 📣 **Share with peers** across Twitter/X, LinkedIn, Reddit, or Discord.
+- ☕ **Sponsor the maintainer** or buy a coffee via the official [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)!
+
+Your support ensures continuous updates, new open-source discoveries, and transparent benchmarking!
+
+---
+
+## 🤝 How to Contribute
+
+We welcome community suggestions, updates, and additions!
+1. 🍴 Fork this repository.
+2. 🌿 Create a descriptive feature branch (`git checkout -b feature/add-new-learning-tool`).
+3. ✏️ Edit `README.md` following the existing format (include product/repo name, URL, transparent pricing or open-source license, star badge, and 1–2 sentence description).
+4. 📤 Submit a Pull Request with a clear summary of your additions.
+
+---
+
+## 📜 Disclaimer
+
+- This directory is a **community-curated index** — entries do not imply commercial endorsement.
+- Mobile learning apps handling learner records, minors, or enterprise data must comply with international privacy standards (**GDPR**, **CCPA**, **FERPA**, **COPPA**) and accessibility mandates (**WCAG 2.1 AA**).
+- For self-hosted solutions, ensure strict SSL/TLS configuration, mobile sandbox encryption, and secure token refresh flows.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for educators, mobile engineers, instructional designers, and lifelong learners worldwide.</b>
+</p>

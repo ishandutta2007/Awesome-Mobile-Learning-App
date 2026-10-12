@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Vibrant Accent Gradient -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#111827" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="badgeGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes floatPhone {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-8px) rotate(-1deg); }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.65; transform: scale(1.08); }
+    }
+    @keyframes progressPulse {
+      0% { width: 40px; }
+      50% { width: 140px; }
+      100% { width: 40px; }
+    }
+    @keyframes orbitParticle {
+      0% { transform: rotate(0deg) translateX(35px) rotate(0deg); }
+      100% { transform: rotate(360deg) translateX(35px) rotate(-360deg); }
+    }
+    .animated-phone {
+      animation: floatPhone 6s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .pulsing-glow {
+      animation: pulseGlow 4s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .animated-progress {
+      animation: progressPulse 4s ease-in-out infinite;
+    }
+    .orbiting {
+      animation: orbitParticle 8s linear infinite;
+      transform-origin: 1040px 170px;
+    }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="340" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Grid Pattern Overlay -->
+  <g opacity="0.07" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="40" x2="1200" y2="40" />
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="160" x2="1200" y2="160" />
+    <line x1="0" y1="220" x2="1200" y2="220" />
+    <line x1="0" y1="280" x2="1200" y2="280" />
+    <line x1="100" y1="0" x2="100" y2="340" />
+    <line x1="250" y1="0" x2="250" y2="340" />
+    <line x1="400" y1="0" x2="400" y2="340" />
+    <line x1="550" y1="0" x2="550" y2="340" />
+    <line x1="700" y1="0" x2="700" y2="340" />
+    <line x1="850" y1="0" x2="850" y2="340" />
+    <line x1="1000" y1="0" x2="1000" y2="340" />
+    <line x1="1150" y1="0" x2="1150" y2="340" />
+  </g>
+
+  <!-- Background Dynamic Glowing Orbs (placed strictly in the background) -->
+  <circle cx="1020" cy="170" r="130" fill="#6366f1" class="pulsing-glow" filter="url(#glow)" />
+  <circle cx="920" cy="90" r="80" fill="#ec4899" opacity="0.25" class="pulsing-glow" filter="url(#glow)" />
+  <circle cx="150" cy="280" r="90" fill="#8b5cf6" opacity="0.15" filter="url(#glow)" />
+
+  <!-- Right Side Interactive Graphic (Smart Mobile Mockup) -->
+  <g class="animated-phone">
+    <!-- Phone Outer Shell -->
+    <rect x="940" y="45" width="180" height="250" rx="28" fill="#1e293b" stroke="#475569" stroke-width="4" />
+    <rect x="948" y="53" width="164" height="234" rx="22" fill="#0f172a" />
+    
+    <!-- Phone Notch / Island -->
+    <rect x="1005" y="60" width="50" height="8" rx="4" fill="#334155" />
+    
+    <!-- Screen Header Widget -->
+    <rect x="960" y="80" width="140" height="28" rx="6" fill="#1e293b" />
+    <circle cx="975" cy="94" r="6" fill="#10b981" />
+    <rect x="990" y="90" width="65" height="8" rx="4" fill="#94a3b8" />
+    
+    <!-- Micro-lesson Course Card 1 -->
+    <rect x="960" y="118" width="140" height="48" rx="8" fill="url(#primaryGrad)" opacity="0.9" />
+    <text x="972" y="137" fill="#ffffff" font-size="11" font-weight="bold" font-family="-apple-system, sans-serif">⚡ Micro-Lesson</text>
+    <rect x="972" y="146" width="116" height="5" rx="2.5" fill="#ffffff" opacity="0.3" />
+    <rect x="972" y="146" width="80" height="5" rx="2.5" fill="#ffffff" class="animated-progress" />
+    
+    <!-- Card 2 (Spaced Repetition / Quiz) -->
+    <rect x="960" y="176" width="140" height="42" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+    <text x="972" y="195" fill="#e2e8f0" font-size="10" font-weight="600" font-family="-apple-system, sans-serif">🧠 Spaced Repetition</text>
+    <rect x="972" y="202" width="70" height="4" rx="2" fill="#6366f1" />
+    
+    <!-- Offline Sync Indicator -->
+    <rect x="960" y="228" width="140" height="36" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1" />
+    <circle cx="975" cy="246" r="4" fill="#10b981" />
+    <text x="987" y="250" fill="#10b981" font-size="10" font-weight="bold" font-family="-apple-system, sans-serif">Offline Ready 100%</text>
+
+    <!-- Floating Badge Beside Phone -->
+    <g filter="url(#badgeGlow)">
+      <rect x="870" y="125" width="105" height="34" rx="17" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.5" />
+      <text x="882" y="147" fill="#a78bfa" font-size="11" font-weight="bold" font-family="-apple-system, sans-serif">📱 Mobile-First</text>
+    </g>
+    <g filter="url(#badgeGlow)">
+      <rect x="885" y="195" width="95" height="34" rx="17" fill="#1e293b" stroke="#10b981" stroke-width="1.5" />
+      <text x="897" y="217" fill="#34d399" font-size="11" font-weight="bold" font-family="-apple-system, sans-serif">🔄 Offline Sync</text>
+    </g>
+  </g>
+
+  <!-- Left / Foreground Content (Always unobstructed and high-contrast) -->
+  <g>
+    <!-- Top Category Tag -->
+    <rect x="70" y="55" width="200" height="28" rx="14" fill="#312e81" stroke="#6366f1" stroke-width="1" />
+    <text x="82" y="74" fill="#c7d2fe" font-size="12" font-weight="700" letter-spacing="1" font-family="-apple-system, sans-serif">📚 CURATED ECOSYSTEM</text>
+
+    <!-- Main Title -->
+    <text x="70" y="132" fill="#ffffff" font-size="44" class="title-text">
+      Awesome <tspan fill="url(#primaryGrad)">Mobile Learning</tspan> App
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="70" y="172" fill="#94a3b8" font-size="18" class="subtitle-text">
+      Curated SaaS Platforms, Frameworks &amp; Open-Source Projects for On-the-Go Education
+    </text>
+
+    <!-- Feature Pills -->
+    <g transform="translate(70, 215)">
+      <!-- Pill 1 -->
+      <rect x="0" y="0" width="145" height="32" rx="16" fill="#1f2937" stroke="#374151" stroke-width="1" />
+      <text x="14" y="21" fill="#e5e7eb" font-size="12" font-weight="600" font-family="-apple-system, sans-serif">⚡ Micro-Learning</text>
+
+      <!-- Pill 2 -->
+      <rect x="155" y="0" width="135" height="32" rx="16" fill="#1f2937" stroke="#374151" stroke-width="1" />
+      <text x="169" y="21" fill="#e5e7eb" font-size="12" font-weight="600" font-family="-apple-system, sans-serif">📴 Offline-First</text>
+
+      <!-- Pill 3 -->
+      <rect x="300" y="0" width="145" height="32" rx="16" fill="#1f2937" stroke="#374151" stroke-width="1" />
+      <text x="314" y="21" fill="#e5e7eb" font-size="12" font-weight="600" font-family="-apple-system, sans-serif">🎮 Gamification</text>
+
+      <!-- Pill 4 -->
+      <rect x="455" y="0" width="140" height="32" rx="16" fill="#1f2937" stroke="#374151" stroke-width="1" />
+      <text x="469" y="21" fill="#e5e7eb" font-size="12" font-weight="600" font-family="-apple-system, sans-serif">📊 xAPI &amp; LRS Sync</text>
+    </g>
+
+    <!-- Bottom Metadata Line -->
+    <text x="70" y="285" fill="#64748b" font-size="13" font-weight="500" font-family="-apple-system, sans-serif">
+      ⭐ Open-Source Engines • 💼 Enterprise LMS • 🚀 Frontline Enablement • 🌐 Global EdTech
+    </text>
+  </g>
+</svg>
