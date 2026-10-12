@@ -1,6 +1,6 @@
 # Awesome-Mobile-Learning-App
 
-# Top Mobile Learning App Ecosystem
+## Top Mobile Learning App Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Micro-Learning, Offline-First Delivery & Mobile-First Learner Engagement*  
